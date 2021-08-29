@@ -6,9 +6,7 @@ import PackageDescription
 let package = Package(
     name: "RxReachability",
     platforms: [
-        .macOS(.v10_10),
-        .iOS(.v8),
-        .tvOS(.v9)
+        .iOS(.v10)
     ],
     products: [
         .library(
